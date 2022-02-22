@@ -1,12 +1,12 @@
 # goupwithcncf
 Going Up with CNCF
 
-
+```
 └── cncf_landscape
     └── observability - 48
         ├── chaosmonkey - 6
-        │   ├── [chaos-mesh](cncf_landscape/observability/chaosmonkey/chaos-mesh)
-        │   ├── [chaosblade](cncf_landscape/observability/chaosmonkey/chaosblade)
+        │   ├── chaos-mesh
+        │   ├── chaosblade
         │   ├── chaoskube
         │   ├── chaostoolkit
         │   ├── litmus
@@ -14,7 +14,7 @@ Going Up with CNCF
         ├── logging - 2
         │   ├── logstash
         │   └── loki
-        ├── monitoring - 20
+        ├── monitoring - 30
         │   ├── NexClipper
         │   ├── OpenMetrics
         │   ├── VictoriaMetrics
@@ -50,9 +50,10 @@ Going Up with CNCF
             ├── community
             ├── easeagent
             ├── opentracing-go
-            ├── pinpoint
-            ├── skywalking 
+            ├── pinpoint - APM for large-scale distributed systems
+            ├── skywalking - APM
             ├── sofa-tracer
             ├── spring-cloud-sleuth
             ├── tempo
-            └── zipkin
+            └── zipkin - Zipkin is a distributed tracing system
+```
