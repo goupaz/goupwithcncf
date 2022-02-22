@@ -1,5 +1,6 @@
-# goupwithcncf
-Going Up with CNCF
+# CNCF Landscape
+
+## Observability Projects
 
 ```
 └── cncf_landscape
