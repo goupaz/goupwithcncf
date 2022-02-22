@@ -1,0 +1,5 @@
+== Spring Cloud Sleuth
+
+Spring Cloud Sleuth's last minor version is 3.1. You can check the https://github.com/spring-cloud/spring-cloud-sleuth/tree/3.1.x[3.1.x] branch for the latest commits.
+
+The core of this project got moved to https://micrometer.io/docs/tracing[Micrometer Tracing] project and the instrumentations will be moved to https://micrometer.io/[Micrometer] and all respective projects (no longer all instrumentations will be done in a single repository.

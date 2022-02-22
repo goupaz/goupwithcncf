@@ -1,0 +1,101 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - http: {}
+    path: observability/monitoring/netdata
+  - http: {}
+    path: observability/monitoring/grafana
+  - http: {}
+    path: observability/monitoring/influxdb
+  - http: {}
+    path: observability/tracing/skywalking
+  - http: {}
+    path: observability/tracing/zipkin
+  - http: {}
+    path: observability/logging/loki
+  - http: {}
+    path: observability/logging/logstash
+  - http: {}
+    path: observability/tracing/pinpoint
+  - http: {}
+    path: observability/monitoring/beats
+  - http: {}
+    path: observability/monitoring/vector
+  - http: {}
+    path: observability/monitoring/falcon-plus
+  - http: {}
+    path: observability/monitoring/sysdig
+  - http: {}
+    path: observability/monitoring/VictoriaMetrics
+  - http: {}
+    path: observability/monitoring/graphite-web
+  - http: {}
+    path: observability/monitoring/scope
+  - http: {}
+    path: observability/monitoring/opentsdb
+  - http: {}
+    path: observability/monitoring/cortex
+  - http: {}
+    path: observability/chaosmonkey/chaos-mesh
+  - http: {}
+    path: observability/chaosmonkey/chaosblade
+  - http: {}
+    path: observability/monitoring/nightingale
+  - http: {}
+    path: observability/monitoring/m3db
+  - http: {}
+    path: observability/tracing/opentracing-go
+  - http: {}
+    path: observability/monitoring/pixie
+  - http: {}
+    path: observability/monitoring/kiali
+  - http: {}
+    path: observability/chaosmonkey/litmus
+  - http: {}
+    path: observability/monitoring/zabbix
+  - http: {}
+    path: observability/tracing/tempo
+  - http: {}
+    path: observability/chaosmonkey/powerfulseal
+  - http: {}
+    path: observability/monitoring/icinga2
+  - http: {}
+    path: observability/monitoring/OpenMetrics
+  - http: {}
+    path: observability/monitoring/trickster
+  - http: {}
+    path: observability/tracing/spring-cloud-sleuth
+  - http: {}
+    path: observability/chaosmonkey/chaoskube
+  - http: {}
+    path: observability/chaosmonkey/chaostoolkit
+  - http: {}
+    path: observability/monitoring/kuberhealthy
+  - http: {}
+    path: observability/monitoring/opstrace
+  - http: {}
+    path: observability/monitoring/nagioscore
+  - http: {}
+    path: observability/tracing/sofa-tracer
+  - http: {}
+    path: observability/tracing/apm-server
+  - http: {}
+    path: observability/monitoring/skooner
+  - http: {}
+    path: observability/monitoring/packet-agent
+  - http: {}
+    path: observability/monitoring/sensu-go
+  - http: {}
+    path: observability/monitoring/checkmk
+  - http: {}
+    path: observability/monitoring/NexClipper
+  - http: {}
+    path: observability/monitoring/centreon
+  - http: {}
+    path: observability/tracing/community
+  - http: {}
+    path: observability/tracing/easeagent
+  - http: {}
+    path: observability/monitoring/foniod
+  path: cncf_landscape
+kind: LockConfig

@@ -1,0 +1,203 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: cncf_landscape
+  contents:
+  - path: observability/monitoring/netdata
+    http:
+      # 1. Netdata
+      url: https://raw.githubusercontent.com/netdata/netdata/master/README.md
+  - path: observability/monitoring/grafana
+    http:
+      # 2. Grafana
+      url: https://raw.githubusercontent.com/grafana/grafana/master/README.md
+  
+  - path: observability/monitoring/influxdb
+    http:
+      # 3. Influxdb
+      url: https://raw.githubusercontent.com/influxdata/influxdb/master/README.md
+  
+  - path: observability/tracing/skywalking
+    http:
+      # 4. Skywalking
+      url: https://raw.githubusercontent.com/apache/skywalking/master/README.md
+
+  - path: observability/tracing/zipkin
+    http:
+      # 5. Zipkin
+      url: https://raw.githubusercontent.com/openzipkin/zipkin/master/README.md
+
+  - path: observability/logging/loki
+    http:
+      # 6. Loki
+      url: https://raw.githubusercontent.com/grafana/loki/master/README.md
+    
+  - path: observability/logging/logstash
+    http:
+      # 7. logstash
+      url: https://raw.githubusercontent.com/elastic/logstash/master/README.md
+
+  - path: observability/tracing/pinpoint
+    http:
+      # 8. pinpoint
+      url: https://raw.githubusercontent.com/pinpoint-apm/pinpoint/master/README.md
+  - path: observability/monitoring/beats
+    http:
+      # 9. beats
+      url: https://raw.githubusercontent.com/elastic/beats/master/README.md
+  - path: observability/monitoring/vector
+    http: 
+      # 10. vector
+      url: https://raw.githubusercontent.com/vectordotdev/vector/master/README.md
+  - path: observability/monitoring/falcon-plus
+    http:
+      # 11. falcon-plus
+      url: https://raw.githubusercontent.com/open-falcon/falcon-plus/master/README.md
+  - path: observability/monitoring/sysdig
+    http:
+      # 12. sysdig
+      url: https://raw.githubusercontent.com/draios/sysdig/master/README.md
+  - path: observability/monitoring/VictoriaMetrics
+    http:
+      # 13. VictoriaMetric    
+      url: https://raw.githubusercontent.com/VictoriaMetrics/VictoriaMetrics/master/README.md
+  - path: observability/monitoring/graphite-web
+    http:
+      # 14. graphite-web  
+      url: https://raw.githubusercontent.com/graphite-project/graphite-web/master/README.md
+  - path: observability/monitoring/scope
+    http:
+      # 15. scope  
+      url: https://raw.githubusercontent.com/weaveworks/scope/master/README.md
+  - path: observability/monitoring/opentsdb
+    http:
+      #  16. opentsdb 
+      url: https://raw.githubusercontent.com/OpenTSDB/opentsdb/master/README
+  - path: observability/monitoring/cortex
+    http:
+      # 17. cortex  
+      url: https://raw.githubusercontent.com/cortexproject/cortex/master/README.md
+  - path: observability/chaosmonkey/chaos-mesh
+    http:
+      # 18. chaos-mesh 
+      url: https://raw.githubusercontent.com/chaos-mesh/chaos-mesh/master/README.md
+  - path: observability/chaosmonkey/chaosblade
+    http:
+      # 19. chaosblade  
+      url: https://raw.githubusercontent.com/chaosblade-io/chaosblade/master/README.md
+  - path: observability/monitoring/nightingale
+    http:
+      # 20. nightingale  
+      url: https://raw.githubusercontent.com/didi/nightingale/master/README.md
+  - path: observability/monitoring/m3db
+    http:
+      # 21. m3db 
+      url: https://raw.githubusercontent.com/m3db/m3/master/README.md
+  - path: observability/tracing/opentracing-go
+    http:
+      # 22. opentracing-go 
+      url: https://raw.githubusercontent.com/opentracing/opentracing-go/master/README.md
+  - path: observability/monitoring/pixie
+    http:
+      # 23. pixie  
+      url: https://raw.githubusercontent.com/pixie-io/pixie/master/README.md
+  - path: observability/monitoring/kiali
+    http:
+      # 24. kiali 
+      url: https://raw.githubusercontent.com/kiali/kiali/master/README.adoc
+  - path: observability/chaosmonkey/litmus
+    http:
+      # 25. litmus  
+      url: https://raw.githubusercontent.com/litmuschaos/litmus/master/README.md
+  - path: observability/monitoring/zabbix
+    http:
+      # 26. zabbix 
+      url: https://raw.githubusercontent.com/zabbix/zabbix/master/README
+  - path: observability/tracing/tempo
+    http:
+      #  27. tempo 
+      url: https://raw.githubusercontent.com/grafana/tempo/master/README.md
+  - path: observability/chaosmonkey/powerfulseal
+    http:
+      # 28. powerfulseal  
+      url: https://raw.githubusercontent.com/powerfulseal/powerfulseal/master/README.md
+  - path: observability/monitoring/icinga2
+    http:
+      # 29. icinga2
+      url: https://raw.githubusercontent.com/Icinga/icinga2/master/README.md
+  - path: observability/monitoring/OpenMetrics
+    http:
+      # 30. OpenMetrics 
+      url: https://raw.githubusercontent.com/OpenObservability/OpenMetrics/master/README.md
+  - path: observability/monitoring/trickster
+    http:
+      # 31. trickster  
+      url: https://raw.githubusercontent.com/trickstercache/trickster/master/README.md
+  - path: observability/tracing/spring-cloud-sleuth
+    http:
+      # 32. spring-cloud-sleuth 
+      url: https://raw.githubusercontent.com/spring-cloud/spring-cloud-sleuth/master/README.adoc
+  - path: observability/chaosmonkey/chaoskube
+    http:
+      # 33. chaoskube 
+      url: https://raw.githubusercontent.com/linki/chaoskube/master/README.md
+  - path: observability/chaosmonkey/chaostoolkit
+    http:
+      # 34. chaostoolkit  
+      url: https://raw.githubusercontent.com/chaostoolkit/chaostoolkit/master/README.md
+  - path: observability/monitoring/kuberhealthy
+    http:
+      # 35. kuberhealthy  
+      url: https://raw.githubusercontent.com/kuberhealthy/kuberhealthy/master/README.md
+  - path: observability/monitoring/opstrace
+    http:
+      # 36. opstrace 
+      url: https://raw.githubusercontent.com/opstrace/opstrace/master/README.md
+  - path: observability/monitoring/nagioscore
+    http:
+      # 37. nagioscore  
+      url: https://raw.githubusercontent.com/NagiosEnterprises/nagioscore/master/README.md
+  - path: observability/tracing/sofa-tracer
+    http:
+      # 38. sofa-tracer  
+      url: https://raw.githubusercontent.com/sofastack/sofa-tracer/master/README.md
+  - path: observability/tracing/apm-server
+    http:
+      # 39. apm-server 
+      url: https://raw.githubusercontent.com/elastic/apm-server/master/README.md
+  - path: observability/monitoring/skooner
+    http:
+      # 40. skooner 
+      url: https://raw.githubusercontent.com/skooner-k8s/skooner/master/README.md
+  - path: observability/monitoring/packet-agent
+    http:
+      # 41. packet-agent  
+      url: https://raw.githubusercontent.com/Netis/packet-agent/master/README.md
+  - path: observability/monitoring/sensu-go
+    http:
+      # 42. sensu-go 
+      url: https://raw.githubusercontent.com/sensu/sensu-go/master/README.md
+  - path: observability/monitoring/checkmk
+    http:
+      # 43. checkmk 
+      url: https://raw.githubusercontent.com/tribe29/checkmk/master/README.md
+  - path: observability/monitoring/NexClipper
+    http:
+      # 44. NexClipper 
+      url: https://raw.githubusercontent.com/NexClipper/NexClipper/master/README.md
+  - path: observability/monitoring/centreon
+    http:
+      # 45. centreon  
+      url: https://raw.githubusercontent.com/centreon/centreon/master/README.md
+  - path: observability/tracing/community
+    http:
+      # 46. Community
+      url: https://raw.githubusercontent.com/open-telemetry/community/master/README.md
+  - path: observability/tracing/easeagent
+    http:
+      # 47. Easeagent
+      url: https://raw.githubusercontent.com/megaease/easeagent/master/README.md
+  - path: observability/monitoring/foniod
+    http:
+      # 48. Foniod
+      url: https://raw.githubusercontent.com/foniod/foniod/master/README.md
